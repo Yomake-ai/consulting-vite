@@ -1,0 +1,40 @@
+/* Global application styles and fixes */
+
+/* Remove underline from all links */
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+/* Fix hero slider text colors - ensure white text on slider */
+.luminix-hero-section2 .luminix-hero-content2 h5,
+.luminix-hero-section2 .luminix-hero-content2 h1,
+.luminix-hero-section2 .luminix-hero-content2 .hero-title,
+.luminix-hero-section2 .luminix-hero-content2 p,
+.luminix-hero-section2 .luminix-hero-content2 .text {
+  color: #ffffff !important;
+}
+
+/* Ensure slider backgrounds have proper contrast */
+.luminix-hero-slider-item {
+  position: relative;
+}
+
+.luminix-hero-slider-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+
+.luminix-hero-content2 {
+  position: relative;
+  z-index: 1;
+}

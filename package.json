@@ -1,0 +1,34 @@
+{
+  "name": "luminix-vite",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.1.1",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.6",
+    "react": "^19.0.0",
+    "react-countup": "^6.5.3",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.60.0",
+    "react-intersection-observer": "^9.16.0",
+    "react-modal-video": "^2.0.2",
+    "react-slick": "^0.30.3",
+    "react-toastify": "^11.0.5",
+    "react-use": "^17.6.0",
+    "slick-animation": "^0.3.3",
+    "slick-carousel": "^1.8.1",
+    "yup": "^1.6.1",
+    "zod": "^4.0.10"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.5"
+  }
+}
