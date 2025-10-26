@@ -27,6 +27,12 @@
     "yup": "^1.6.1",
     "zod": "^4.0.10"
   },
+  "overrides": {
+    "react-modal-video": {
+      "react": "$react",
+      "react-dom": "$react-dom"
+    }
+  },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
     "vite": "^6.0.5"
